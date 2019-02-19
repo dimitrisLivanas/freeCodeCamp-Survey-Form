@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="main">
+    <div class="header">
+<h1 id="title">Survey Form</h1>
+<p id="description">Responsive Web Design Projects for freecodecamp - <b>Survey form</b></p>
+    </div>
+
+<form id="survey-form">
+
+<div class="div">
+<label id="name-label" for="name">Name: </label>
+<input id="name" type="text" placeholder="name" required>
+</div>
+<div class="div">
+<label id="email-label" for="email">Email: </label>
+<input id="email" type="email" placeholder="email" required>
+</div>
+<div class="div">
+<label id="number-label" for="number">Number: </label>
+<input id="number" type="number" placeholder="number" min="0" max="100">
+</div>
+
+<div class="div">
+<label id="dropdown-label" for="dropdown">Pick an option: </label>
+<select name="dropdown" id="dropdown">
+  <option value="option1">Option 1</option>
+  <option value="option2">Option 2</option>
+  <option value="option3">Option 3</option>
+  <option value="option4">Option 4</option>
+</select>
+</div>
+
+<div id="radio-div">
+<ul style="list-style: none;">
+<li>
+<label for="radio1">
+  <input name="radio-buttons" value="1" type="radio" id="radio1">Radio Button 1
+</label>
+</li>
+<li>
+<label for="radio2">
+  <input name="radio-buttons" value="2" type="radio" id="radio2">Radio Button 2
+</label>
+</li>
+<li>
+<label for="radio3">
+  <input name="radio-buttons" value="3" type="radio" id="radio3">Radio Button 3
+</label>
+</li>
+</ul>
+</div>
+
+<div id="check-div">
+<ul style="list-style: none;">
+  <li>
+<label for="check1">
+  <input id="check1" type="checkbox" name="checkboxes" value="1">Checkbox 1
+</label>
+</li>
+<li>
+<label for="check2">
+  <input id="check2" type="checkbox" name="checkboxes" value="2">Checkbox 2
+</label>
+</li>
+<li>
+<label for="check3">
+  <input id="check3" type="checkbox" name="checkboxes" value="3">Checkbox 3
+</label>
+</li>
+</ul>
+</div>
+
+<div id="textarea-div">
+<textarea name="textarea" rows="8" cols="80">Text area for more comments</textarea>
+</div>
+
+<div id="button-div">
+<button id="submit" type="submit" name="button">Submit</button>
+</div>
+
+</form>
+
+</div>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+body {
+  font-family: monospace;
+  font-size: 17px;
+}
+
+.main {
+  margin: auto;
+  width: 40%;
+}
+
+.div{
+  padding: 10px;
+}
